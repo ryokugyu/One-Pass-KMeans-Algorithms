@@ -6,3 +6,8 @@ Anonymization."
 
 It is  written in Python 2.7 but the support for Python 2 is about to end. In future
 I will be working on porting the code to Python 3.
+
+To remove the `.pyc` files on Linux based Operating System, execute the following command:
+```
+find . -name "*.pyc" -exec rm -f {} \;
+```
