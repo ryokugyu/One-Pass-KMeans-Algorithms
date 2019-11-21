@@ -9,7 +9,7 @@ read adult data
 # attributes ['age', 'workcalss', 'final_weight', 'education', 'education_num', 'matrital_status', 'occupation',
 # 'relationship', 'race', 'sex', 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country', 'class']
 # QID ['age', 'workcalss', 'education', 'matrital_status', 'race', 'sex', 'native_country']
-# SA ['occopation']
+# SA ['occupation']
 from models.gentree import GenTree
 from models.numrange import NumRange
 from utils.utility import cmp_str
@@ -100,7 +100,7 @@ def read_pickle_file(att_name):
         static_file = open('data/adult_' + att_name + '_static.pickle', 'rb')
         (numeric_dict, sort_value) = pickle.load(static_file)
     except:
-        print "Pickle file not exists!!"
+        print("Pickle file not exists!!")
     static_file.close()
     result = NumRange(sort_value, numeric_dict)
     return result
@@ -116,7 +116,7 @@ def read_tree_file(treename):
     treefile = open(prefix + treename + postfix, 'rU')
     att_tree['*'] = GenTree('*')
     if __DEBUG:
-        print "Reading Tree" + treename
+        print("Reading Tree" + treename)
     for line in treefile:
         # delete \n
         if len(line) <= 1:
