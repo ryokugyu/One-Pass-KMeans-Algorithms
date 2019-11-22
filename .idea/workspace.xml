@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f61485b-59cf-49d4-96be-f1bfb30011f6" name="Default Changelist" comment="" />
+    <list default="true" id="8f61485b-59cf-49d4-96be-f1bfb30011f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/One-Pass-KMeans-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/One-Pass-KMeans-Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anonymizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/anonymizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering_based_k_anon.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering_based_k_anon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read_adult_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_adult_data.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574363411581</updated>
       <workItem from="1574363430282" duration="1218000" />
+      <workItem from="1574397206135" duration="164000" />
+      <workItem from="1574397395090" duration="309000" />
     </task>
     <servers />
   </component>
@@ -50,7 +61,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

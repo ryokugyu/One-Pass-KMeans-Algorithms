@@ -135,6 +135,6 @@ def read_tree_file(treename):
             except KeyError:
                 att_tree[t] = GenTree(t, att_tree[temp[i - 1]], isleaf)
     if __DEBUG:
-        print "Nodes No. = %d" % att_tree['*'].support
+        print("Nodes No. = %d" % att_tree['*'].support)
     treefile.close()
     return att_tree

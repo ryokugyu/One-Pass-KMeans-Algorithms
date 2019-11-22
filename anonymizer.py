@@ -78,9 +78,9 @@ def get_result_k(att_trees, data, type_alg):
         print("K=%d" % k)
         _, eval_result = clustering_based_k_anon(att_trees, data, type_alg, k)
         data = copy.deepcopy(data_back)
-        print "NCP %0.2f" % eval_result[0] + "%"
+        print("NCP %0.2f" % eval_result[0] + "%")
         all_ncp.append(round(eval_result[0], 2))
-        print "Running time %0.2f" % eval_result[1] + "seconds"
+        print("Running time %0.2f" % eval_result[1] + "seconds")
         all_rtime.append(round(eval_result[1], 2))
     print("All NCP", all_ncp)
     print("All Running time", all_rtime)

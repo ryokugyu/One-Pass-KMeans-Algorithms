@@ -384,7 +384,7 @@ def clustering_based_k_anon(att_trees, data, type_alg='oka', k=10, QI_num=-1):
     init(att_trees, data, QI_num)
     result = []
     start_time = time.time()
-    print "Begin to OKA Cluster based on NCP"
+    print("Begin to OKA Cluster based on NCP")
     clusters = clustering_oka(data, k)
     rtime = float(time.time() - start_time)
     ncp = 0.0
@@ -398,5 +398,5 @@ def clustering_based_k_anon(att_trees, data, type_alg='oka', k=10, QI_num=-1):
     ncp /= QI_LEN
     ncp *= 100
     if __DEBUG:
-        print "NCP=", ncp
+        print("NCP=", ncp)
     return (result, (ncp, rtime))
